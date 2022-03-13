@@ -6,7 +6,7 @@
 
 [![[Node.js]無料クラウドサービスでEclipse Theiaをビルドする](./resources/chapter10.png)][10]
 
-Qiitaに投稿した記事で使用するコードを掲載しています。</br>
+Qiitaに投稿した記事で使用するコードを掲載しています。<br>
 [Google Cloud Shell](https://shell.cloud.google.com/)で自分用にカスタマイズした
 [Eclipse Theia](https://theia-ide.org/)をビルドして利用することが目的です。<br>
 [Node.js](https://nodejs.org/)と[Yarn](https://yarnpkg.com/)が利用可能であることが前提となります。
