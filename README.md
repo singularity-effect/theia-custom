@@ -23,7 +23,7 @@ Qiitaに投稿した記事で使用するコードを掲載しています。<br
 ### 〈ビルド済みZIPファイルの使用法〉
 
 ```shell
-wget https://github.com/singularity-effect/theia-custom/releases/download/2022.03.06/theia_1_24_0.zip
+wget https://github.com/singularity-effect/theia-custom/releases/download/2022.04.14/theia_1_24_0.zip
 
 unzip theia_1_24_0.zip
 ```
