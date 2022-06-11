@@ -22,11 +22,24 @@ Qiitaに投稿した記事で使用するコードを掲載しています。<br
 
 ### 〈ビルド済みZIPファイルの使用法〉
 
-```shell
-wget https://github.com/singularity-effect/theia-custom/releases/download/2022.04.14/theia_1_24_0.zip
+ここからの手順はホームディレクトリで作業を行うことを前提としています。<br>
+まず下記のコマンドでZIP形式の圧縮ファイルをダウンロードします。ファイルサイズは240MBほどです。<br>
+**LFTP**や**aria2**が導入済みであれば、それらのほうが高速なので、ダウンロード時間を短縮できます。
 
-unzip theia_1_24_0.zip
+```shell
+wget https://github.com/singularity-effect/theia-custom/releases/download/2022.06.11/theia_1_26_0.zip
 ```
+
+次に圧縮されたZIPファイルを展開しますが、ホームディレクトリのディスク容量を1GB程度消費します。<br>
+途中で空き容量が逼迫しないように、いったんホームディレクトリの上位の別ボリュームのディレクトリに移動することとします。
+
+```shell
+sudo mv ~/theia_1_26_0.zip /var/
+
+unzip /var/theia_1_26_0.zip
+```
+もし**7-Zip**を導入済みであれば、そちらを使って展開したほうが高速で、かなり所要時間を短縮できます。
+
 
 ### 〈後書き〉
 
